@@ -1,5 +1,5 @@
 player_1 = 'John'
-bot = 'Jack'
+bot = 'Bot'
 players = [player_1, bot]
 pencils = 0
 turn = ''
@@ -35,7 +35,7 @@ while True:
         # Validation of the player names input:
         while True:
 
-            turn = input('Who will be the first (John, Jack):\n')
+            turn = input('Who will be the first (John, Bot):\n')
 
             if turn not in players:
                 print(f"Choose between {player_1} and {bot}")
